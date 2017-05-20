@@ -16,11 +16,14 @@
 	"buffers":
 	[
 		{
-			"contents": "import pandas as pd\n\ndf = pd.read_csv()",
+			"contents": "import pandas as pd\n\ndf = pd.read_csv('ATP.csv')\n\ndf.to_csv('ATP_processed.csv')",
+			"file": "process_atp.py",
+			"file_size": 84,
+			"file_write_time": 131367004538995000,
 			"settings":
 			{
-				"buffer_size": 39,
-				"line_ending": "Unix"
+				"buffer_size": 80,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -62,8 +65,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Peter_Sinka/Documents/ATP-dataset"
+	],
 	"file_history":
 	[
+		"/C/tools/Sublime Text 3/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/Users/petersinka/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/petersinka/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/petersinka/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
@@ -115,18 +123,19 @@
 			[
 				{
 					"buffer": 0,
+					"file": "process_atp.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39,
+						"buffer_size": 80,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								80,
+								80
 							]
 						],
 						"settings":
